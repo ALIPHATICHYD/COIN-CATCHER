@@ -1,0 +1,9 @@
+body #canvas {
+  width: 100%;
+  border: 1px solid black;
+}
+body button {
+  width: 50px;
+  height: 30px;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=style.css.map */
