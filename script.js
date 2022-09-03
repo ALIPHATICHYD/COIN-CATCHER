@@ -35,3 +35,13 @@ window.onload = function() {
     down.ontouchend = function() { dir = 0;}
     left.ontouchend = function() { dir = 0;}
     right.ontouchend = function() { dir = 0;}
+
+    function draw() {
+        var timePassed = (Date.now() - t) / 1000;
+        t = Date.now();
+
+        context.clearRect(0, 0, 600, 400);
+        
+        context.font = '25px Arial';
+        context.fillStyle = 'black';
+        context.fillText("Score: " + score, 20, 30);
