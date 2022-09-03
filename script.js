@@ -25,3 +25,8 @@ window.onload = function() {
     down.ontouchstart = function() { dir = 3;}
     left.ontouchstart = function() { dir = 2;}
     right.ontouchstart = function() { dir = 1;}
+
+    up.onmouseup = function() { dir = 0;}
+    down.onmouseup = function() { dir = 0;}
+    left.onmouseup = function() { dir = 0;}
+    right.onmouseup = function() { dir = 0;}
