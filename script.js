@@ -15,3 +15,8 @@ window.onload = function() {
     let down = document.getElementById('down');
     let left = document.getElementById('left');
     let right = document.getElementById('right');
+
+    up.onmousedown = function() { dir = 4;}
+    down.onmousedown = function() { dir = 3;}
+    left.onmousedown = function() { dir = 2;}
+    right.onmousedown = function() { dir = 1;}
