@@ -30,3 +30,8 @@ window.onload = function() {
     down.onmouseup = function() { dir = 0;}
     left.onmouseup = function() { dir = 0;}
     right.onmouseup = function() { dir = 0;}
+
+    up.ontouchend = function() { dir = 0;}
+    down.ontouchend = function() { dir = 0;}
+    left.ontouchend = function() { dir = 0;}
+    right.ontouchend = function() { dir = 0;}
