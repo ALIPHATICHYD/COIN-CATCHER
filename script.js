@@ -55,3 +55,14 @@ window.onload = function() {
         context.rect(coinx, coiny, 50, 50);
         context.fillStyle="#e3c228";
         context.fill(); 
+
+        if(dir == 1) { 
+            if(x+100 < 600) {
+                x += (speed * timePassed);
+            }
+        }
+        else if(dir == 2) { 
+            if(x > 0) {
+                x -= (speed * timePassed);
+            }
+        }
