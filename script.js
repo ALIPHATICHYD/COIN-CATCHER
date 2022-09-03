@@ -10,3 +10,8 @@ window.onload = function() {
     let speed = 300;
     let dir = 0;
     let score = 0;
+
+    let up = document.getElementById('up');
+    let down = document.getElementById('down');
+    let left = document.getElementById('left');
+    let right = document.getElementById('right');
