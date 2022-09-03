@@ -76,3 +76,14 @@ window.onload = function() {
                 y -= (speed * timePassed);
             }
         }
+
+        if (coinx <= x+100 && x <= coinx+50 && coiny <= y+100 && y <= coiny+50) {
+            score++;
+            coinx = Math.random() * (600-50);
+            coiny = Math.random() * (400-50);
+        }
+
+        window.requestAnimationFrame(draw);
+    }
+    draw();
+}
