@@ -45,3 +45,13 @@ window.onload = function() {
         context.font = '25px Arial';
         context.fillStyle = 'black';
         context.fillText("Score: " + score, 20, 30);
+
+        context.beginPath();
+        context.rect(x, y, 100, 100);
+        context.fillStyle="red";
+        context.fill();
+
+        context.beginPath();
+        context.rect(coinx, coiny, 50, 50);
+        context.fillStyle="#e3c228";
+        context.fill(); 
