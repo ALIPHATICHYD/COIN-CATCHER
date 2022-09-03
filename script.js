@@ -66,3 +66,13 @@ window.onload = function() {
                 x -= (speed * timePassed);
             }
         }
+        else if(dir == 3) { 
+            if(y+100 < 400) {
+                y += (speed * timePassed);
+            }
+        }
+        else if(dir == 4) { 
+            if(y > 0) {
+                y -= (speed * timePassed);
+            }
+        }
